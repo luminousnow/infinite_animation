@@ -1,0 +1,17 @@
+.move {
+  height: 150px;
+  width: 150px;
+  margin: 50px 50px;
+  animation: move 2000ms infinite ease alternate;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(5%);
+    background: #000;
+  }
+  100% {
+    transform: translateY(-5%);
+    background: red;
+  }
+}
